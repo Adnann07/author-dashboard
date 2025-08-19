@@ -115,9 +115,9 @@ function App() {
               <div className="profile-header">
                 <div className="profile-pic-container">
                   <img
-                    src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=150&q=80"
-                    alt="Profile"
-                    className="profile-pic"
+                  src="https://scontent.fdac37-1.fna.fbcdn.net/v/t39.30808-6/501906690_1245885197121798_1561527417200158393_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFcxT4f4wxQhiCgiqxFEQAoS4M4y78Ee_BLgzjLvwR78JnC4wG4EVaCoCTyM5Ygd8BIhcSZ2vzmoarEBTtpxYs2&_nc_ohc=iwIpN3TVHuEQ7kNvwEcHNoA&_nc_oc=Adk8wFj0tSXr9Pdn0EXmUD7F9kaUR9iiEum3H7gU46-xl9PXexxDslDuRRGlTyMCl6Y&_nc_zt=23&_nc_ht=scontent.fdac37-1.fna&_nc_gid=WZUOyh3hM0sK9ERZPUgkBA&oh=00_AfUIcn76nX3ef7OR3XCQk7dYyAxEzwn-GlDMiVOFJ7MDpA&oe=68AA629D"
+                  alt="Profile"
+                  className="profile-pic"
                   />
                   <div className="online-indicator"></div>
                 </div>
@@ -127,17 +127,17 @@ function App() {
                 <div className="info-grid">
                   <div className="info-item">
                     <label>Full Name</label>
-                    <p>John Alexander Doe</p>
+                    <p>Mohammad Adnan</p>
                   </div>
                   
                   <div className="info-item">
                     <label>Email Address</label>
-                    <p>john.doe@authorhub.com</p>
+                    <p>adnanmia.cse@gmail.com</p>
                   </div>
                   
                   <div className="info-item">
                     <label>Date Joined</label>
-                    <p>March 15, 2023</p>
+                    <p>August 17, 2025</p>
                   </div>
                   
                   <div className="info-item">
