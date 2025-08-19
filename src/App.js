@@ -9,7 +9,7 @@ function App() {
 
   const articlesPerPage = 5;
 
-  // Dummy article data with varied statuses
+
   const articles = Array.from({ length: 23 }, (_, i) => {
     const statuses = ["Published", "Draft", "Under Review", "Rejected"];
     const status = statuses[i % statuses.length];
@@ -80,7 +80,7 @@ function App() {
 
   return (
     <div className="dashboard">
-      {/* Sidebar */}
+ 
       <div className={`sidebar ${collapsed ? "collapsed" : ""}`}>
         <button className="toggle-btn" onClick={() => setCollapsed(!collapsed)}>
           {collapsed ? "☰" : "×"}
@@ -131,7 +131,7 @@ function App() {
                   </div>
                   
                   <div className="info-item">
-                    <label>Email Address</label>
+                    <label>Email</label>
                     <p>adnanmia.cse@gmail.com</p>
                   </div>
                   
@@ -201,7 +201,7 @@ function App() {
                 ))}
               </div>
 
-              {/* Custom Pagination */}
+          
               <div className="pagination-container">
                 <div className="pagination-info">
                   Showing {((currentPage - 1) * articlesPerPage) + 1} to {Math.min(currentPage * articlesPerPage, articles.length)} of {articles.length} articles
